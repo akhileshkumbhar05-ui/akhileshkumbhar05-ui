@@ -40,6 +40,43 @@ I work across machine learning, analytics engineering, retrieval-augmented gener
 
 ---
 
+## How I Turn Data Into Products
+
+```mermaid
+flowchart LR
+    A([Research question]) --> B[/Public data, papers, reports, APIs/]
+    B --> C[(Raw data and documents)]
+    C --> D[Cleaning, feature engineering, and validation]
+    D --> E{Modeling path}
+    E -->|Analytics| F[[Metrics, dashboards, and decision views]]
+    E -->|ML| G[[Training, evaluation, and explainability]]
+    E -->|RAG| H[[Embeddings, retrieval, and local LLM workflows]]
+    F --> I([Deployed product surface])
+    G --> I
+    H --> I
+    I --> J{User feedback and measurement}
+    J -->|Improve| D
+    J -->|Publish| K[/README, report, paper, demo/]
+```
+
+## Data Science System Pattern
+
+```mermaid
+flowchart TD
+    S1[/Trip data, audio clips, images, PDFs, job posts/] --> S2[(Storage layer)]
+    S2 --> S3[Preprocessing and normalization]
+    S3 --> S4{Quality checks}
+    S4 -->|Pass| S5[(Feature store or vector index)]
+    S4 -->|Fix| S3
+    S5 --> S6[[Model or retrieval pipeline]]
+    S6 --> S7{Evaluation}
+    S7 -->|Metrics acceptable| S8([App, dashboard, API, or demo])
+    S7 -->|Needs work| S3
+    S8 --> S9[/Technical writeup and recruiter-visible proof/]
+```
+
+---
+
 ## Featured Projects
 
 <table>
