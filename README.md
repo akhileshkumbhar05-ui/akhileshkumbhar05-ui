@@ -8,6 +8,11 @@
 
 <h3>Building practical AI and data systems that move from research ideas to working products.</h3>
 
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2800&pause=800&color=22C55E&center=true&vCenter=true&width=900&lines=Data+Science+%7C+Machine+Learning+%7C+RAG+Systems;Turning+research+ideas+into+working+AI+products;Building+dashboards%2C+models%2C+agents%2C+and+analytics+pipelines;First-author+healthcare+AI%2FML+survey+%7C+Co-authored+EREV+research" alt="Typing animation: Data Science, Machine Learning, RAG Systems" />
+
+<br />
+<br />
+
 I work across machine learning, analytics engineering, retrieval-augmented generation, robotics/control, and applied data science. My projects focus on usable end-to-end systems: data pipelines, model training, evaluation, dashboards, deployment, and clear technical storytelling. I also write applied research, including first-author survey work on AI/ML in healthcare and co-authored published work on transportation electrification.
 
 </div>
