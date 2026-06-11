@@ -2,8 +2,8 @@
 
 ![Header](https://capsule-render.vercel.app/api?type=waving&height=230&color=0:0f172a,45:0e7490,100:22c55e&text=Akhilesh%20Arunkumar%20Kumbhar&fontColor=ffffff&fontSize=44&fontAlignY=38&desc=Data%20Science%20%7C%20Machine%20Learning%20%7C%20RAG%20Systems%20%7C%20Applied%20AI&descAlignY=58&descSize=18)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Add%20URL-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](#)
-[![Email](https://img.shields.io/badge/Email-Add%20Email-ea4335?style=for-the-badge&logo=gmail&logoColor=white)](#)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Akhilesh%20Kumbhar-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/akhilesh-kumbhar-aak)
+[![Email](https://img.shields.io/badge/Email-akhileshkumbhar0405%40gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:akhileshkumbhar0405@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-akhileshkumbhar05--ui-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/akhileshkumbhar05-ui)
 
 <h3>Building practical AI and data systems that move from research ideas to working products.</h3>
