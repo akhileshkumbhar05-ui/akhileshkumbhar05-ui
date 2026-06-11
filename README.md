@@ -8,7 +8,7 @@
 
 <h3>Building practical AI and data systems that move from research ideas to working products.</h3>
 
-I work across machine learning, analytics engineering, retrieval-augmented generation, robotics/control, and applied data science. My projects focus on usable end-to-end systems: data pipelines, model training, evaluation, dashboards, deployment, and clear technical storytelling.
+I work across machine learning, analytics engineering, retrieval-augmented generation, robotics/control, and applied data science. My projects focus on usable end-to-end systems: data pipelines, model training, evaluation, dashboards, deployment, and clear technical storytelling. I also write applied research, including first-author survey work on AI/ML in healthcare and co-authored published work on transportation electrification.
 
 </div>
 
@@ -61,14 +61,18 @@ I work across machine learning, analytics engineering, retrieval-augmented gener
     <td width="50%" valign="top">
       <h3><a href="https://github.com/akhileshkumbhar05-ui/EREV-Copilot-Analytics-RAG-Q-A">EREV Copilot: Analytics and RAG Q&A</a></h3>
       <p>
-        Local analytics and retrieval system for extended-range electric vehicle research.
+        Local analytics and retrieval system built around my co-authored EREV electrification research.
       </p>
       <ul>
         <li>Built a Streamlit dashboard for EREV vs BEV trade-off analysis</li>
         <li>Integrated document Q&A using embeddings and a local LLM workflow</li>
+        <li>Modeled range, charging frequency, electric miles, emissions, and transportation cost trade-offs</li>
         <li>Designed for local execution and AWS EC2 deployment</li>
       </ul>
       <p>
+        <a href="https://doi.org/10.3390/en18246448">
+          <img src="https://img.shields.io/badge/Paper-Energies%202025-16a34a?style=flat-square" />
+        </a>
         <img src="https://img.shields.io/badge/Python-3776ab?style=flat-square&logo=python&logoColor=white" />
         <img src="https://img.shields.io/badge/Streamlit-ff4b4b?style=flat-square&logo=streamlit&logoColor=white" />
         <img src="https://img.shields.io/badge/RAG-0f766e?style=flat-square" />
@@ -150,14 +154,19 @@ I work across machine learning, analytics engineering, retrieval-augmented gener
 
 ## Research and Technical Writing
 
-I like projects that sit between research and implementation: reading papers, reproducing ideas, building working systems, then explaining the trade-offs clearly.
+I like projects that sit between research and implementation: reading papers, modeling real-world systems, building tools around the analysis, then explaining the trade-offs clearly.
 
-| Paper / Report | Area | What It Shows |
+| Paper / Report | Focus | Contribution |
 |---|---|---|
-| Extended-Range Electric Vehicle analysis | Energy analytics, transportation data, RAG | Analytical reasoning, dashboarding, document Q&A, and deployment-oriented AI tooling |
-| Vehicle Corridor Traffic Analysis with Test-Time Adaptation | Computer vision, edge AI, robustness | Detection, tracking, adaptation, speed estimation, and latency evaluation |
-| Add your paper title here | Data science / AI | Send me the title, link, venue/class, and one-sentence contribution |
-| Add your second paper title here | Data science / AI | Send me the title, link, venue/class, and one-sentence contribution |
+| [Contributions of Extended-Range Electric Vehicles (EREVs) to Electrified Miles, Emissions and Transportation Cost Reduction](https://doi.org/10.3390/en18246448) | Transportation electrification, energy analytics, cost/emissions modeling | Co-authored published article in *Energies* 2025. Modeled 2023 U.S. trip-distance and VMT scenarios for EREV ranges from 25 to 150 miles, showing how range and charging frequency shape electrified miles, CO2 savings, and battery investment trade-offs. |
+| Applications of Machine Learning and Data Science in Healthcare Industry: A Survey | Healthcare AI, real-world data, ML/DL adoption, clinical AI risk | First-author survey of AI/ML healthcare applications covering real-world data, disease diagnosis and detection, patient-facing software, chatbots, and deployment challenges including privacy, governance, explainability, clinical validation, and trust. |
+| Vehicle Corridor Traffic Analysis with Test-Time Adaptation | Computer vision, edge AI, robustness | Technical project report connecting YOLOv8 detection, ByteTrack tracking, speed estimation, test-time adaptation, and quantization/latency evaluation for vehicle corridor analytics. |
+
+### Research-to-Product Thread
+
+- Turned the EREV research into an analytics and RAG copilot so users can explore assumptions, results, and document Q&A interactively.
+- Use technical writing as a forcing function: every project should explain the data, the model, the metric, the trade-off, and the limitation.
+- Current direction: stronger public demos, clearer experiment tracking, and more production-style testing around research-backed projects.
 
 ---
 
